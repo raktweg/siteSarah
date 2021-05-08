@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Fontawesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+    <title>RAKTWEG</title>
+	<link rel="stylesheet" type="text/css" href="paginaconteudo.css">
+
+</head>
+<body>
+	<header class="row">
+		<div class="col-0.5">
+			<h1><i onclick="apertar()" class="fas fa-align-justify"></i></h1>
+			
+		</div>
+		<div class="col-8">
+			<h1>RAKTWEG <i onclick="clicar()" class="fas fa-angle-double-up"></i></h1>
+		</div>
+
+		<div class="col-1.5">
+			      <a href="paginagdae.html"><button class="btn">
+     	         <div class="row">
+                      <div class="col-6">
+			          <h6>GDAe <br> UFC</h6>
+		              </div>
+		              <div class="col-6">
+			          <img src="img/gdaeUFC.png" style='max-width: 40px; max-height: 40px;'>
+		         </div>
+		         </div>
+		      </button></a>
+		     </div>
+	    
+
+		<div class="col-1.5">
+			 <a href=""><button class="btn">
+     	 <div class="row">
+             <div class="col-6">
+			      <h6>Oi, nome <br> Subsistema</h6>
+		     </div>
+		     <div class="col-6">
+		     	<h2><i class="fas fa-user-circle"></i></h2>
+		     </div>
+		 </div>
+		 </button></a>
+		</div>
+
+	</header>
+
+	<div id=barralateral>
+			<nav>
+				<ul>
+					<li class="barra"><a href="Paginainicial.html " class="fas fa-home"> Inicio</a></li>
+			        <li><a href="paginaorbitando.html " class="fas fa-globe-americas"> Orbitando</a></li>
+			        <li><a href="paginanews.html " class="fas fa-newspaper"> Space News</a></li>
+			        <li><a href="paginaconteudo.html " class="fas fa-book"> Conteúdo</a></li>
+				</ul>
+		</nav>
+		
+		
+	</div>
+	<br>
+<br>
+<br>
+
+	<div class=container>
+	     <div class="row">
+		   <h2> RECOMENDAÇÕES <i class="fas fa-user-astronaut"></i></h2>
+	      </div>
+	     <div class="row">
+		         <div class=col-4><img src="img/cont1.png" style="width: 100%"></div>
+		         <div class=col-4><img src="img/cont3.png" style="width: 100%"></div>
+		         <div class=col-4><img src="img/cont2.png" style="width: 100%"></div>
+	          </div>
+	          <br>
+	          <div class="row">
+	          	<h2> REPOSITÓRIO <i class="fas fa-book"></i></h2>
+	          </div>
+	          <div>
+	          	<h2>A</h2>
+	          	<a href="https://repositorio.unesp.br/handle/11449/105364">Automatização aplicada a lançadores de foguete de sondagem para compensação da influência dos ventos</a>
+	          	<h2>B</h2>
+	          	<a href="https://bdex.eb.mil.br/jspui/bitstream/123456789/395/1/C-6-16.pdf">Bateria de lançadores múltiplos de foguetes</a>
+	          	<h2>C</h2>
+	          	<a href="https://editorarealize.com.br/artigo/visualizar/36262">Construção e lançamento de foguetes como estratégia de aprendizado em física</a>
+
+	          </div>
+
+
+
+	</div>
+	<br>
+	        <br>
+	        <br>
+	        <div>
+    <div id=dadosgerais>
+    	<div>
+
+              <h1 class="fas fa-users"> 25 Equipes cadastradas</h1>
+              <br>
+              <h1 class="fas fa-user-alt"> 374 Membros ativos</h1>
+              <br>
+              <h1 class="fas fa-rocket"> 51 Lançamentos</h1>
+     </div>
+     <div class="row">
+     	<img class= col-6 src="img/grafico2.jpeg">
+     	<img class=col-6 src="img/grafico.jpeg">
+     </div>
+ </div>
+ <script type="text/javascript" type="text/javascript">
+ 	function clicar()
+	{
+			var imagem = document.getElementById('dadosgerais');
+			if (imagem.style.display === 'block')
+			{
+				imagem.style.display = 'none'
+			}
+			else
+			{
+				imagem.style.display = 'block'
+			}
+		}
+		function apertar()
+	{
+			var imagem = document.getElementById('barralateral');
+			if (imagem.style.display === 'block')
+			{
+				imagem.style.display = 'none'
+			}
+			else
+			{
+				imagem.style.display = 'block'
+			}
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+body
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	color: purple;
+}
+li
+{
+	list-style:none;
+}
+a:link
+{
+	text-decoration: none;
+}
+a
+{
+	color:purple;
+}
+button
+{
+	background: white;
+	color:purple;
+}
+button:active
+{
+	background-color: #DCDCDC;
+}
+header
+{
+	-webkit-box-shadow: 0 0 0 4px white, 0 6px 4px black;
+  -moz-box-shadow: 0 0 0 4px white, 0 6px 4px black;
+  box-shadow: 0 0 0 4px white, 0 6px 20px black;
+}
+.gdae img
+{
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	
+}
+#fotodeperfil img
+{
+	max-width: 180px; max-height: 180px
+}
+#barralateral
+{
+	display: none;
+}

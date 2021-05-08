@@ -1,0 +1,63 @@
+body
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	color: purple;
+}
+li
+{
+	list-style:none;
+}
+a:link
+{
+	text-decoration: none;
+}
+a
+{
+	color:purple;
+}
+button
+{
+	background: white;
+	color: purple;
+}
+button:active
+{
+	background-color: #DCDCDC;
+}
+header
+{
+	-webkit-box-shadow: 0 0 0 4px white, 0 6px 4px black;
+  -moz-box-shadow: 0 0 0 4px white, 0 6px 4px black;
+  box-shadow: 0 0 0 4px white, 0 6px 20px black;
+}
+#quark img
+{
+	max-width: 40px; max-height: 40px
+}
+#textoquark
+{
+	color: black;
+}
+#textojupyter
+{
+	color: black;
+}
+.section
+{
+	border: 1px solid #000000;
+	border-radius: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-shadow: 5px 5px 5px #000000;
+}
+#dadosgerais
+{
+	display: none;
+}
+#barralateral
+{
+	display: none;
+}
